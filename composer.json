@@ -1,0 +1,22 @@
+{
+    "name": "aichenk/tp6-route-param",
+    "description": "tp6支持url参数顺序解析，可用于tp5升级兼容",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aiChenK",
+            "email": "aichenk@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\route\\dispatch\\": "src"
+        }
+    }
+}
